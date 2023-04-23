@@ -1,0 +1,10 @@
+Para ejecutar este proyecto nesecita tener instalado:
+- python 3
+- fastapi (pip install "fastapi[all]")
+- uvicorn (pip install "uvicorn[standard]")
+- pymongo (pip install pymongo)
+
+Para ejecutar el proyecto debe estar dentro de la carpeta src y ejecutar en la consola el siguiete comando:
+uvicorn main:app --reload
+
+Para ver la documentacion del API ir aquí: http://127.0.0.1:8000/docs
